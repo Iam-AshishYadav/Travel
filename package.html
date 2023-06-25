@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Swiper CSS Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--Font Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--Custum CSS Link-->
+    <link rel="stylesheet" href="css/style.css">
+    <style>.packages .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.packages .box-container .box{
+border: var(--border);
+box-shadow: var(--box-shadow);
+background: var(--white);
+display: none;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inline-block;
+}
+
+.packages .box-container .box .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: .2s linear;
+
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.packages .box-container .box .content h3{
+font-size: 2.5rem;
+color: var(--black);
+}
+
+.packages .box-container .box .content p{
+font-size: 1.5rem;
+color: var(--light-black);
+line-height: 2;
+padding: 1rem 0;
+}
+
+.packages .load-more{
+    text-align: center;
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+
+<!--Header Section Start--> 
+<section class="header">
+    <a href="index.html"class="logo">Travel Addicts</a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="package.html">Package</a>
+        <a href="#">Book</a>
+    </nav>
+<div id="menu-btn" class="fas fa-bars"></div>
+</section>
+<!--Header Section Ends-->
+
+<div class="heading" style="background:url(images/package-bg.jpg)no-repeat">
+    <h1>packages</h1>
+</div>
+
+<!--Package section starts-->
+
+<section class="packages">
+
+ <h1 class="heading-title">top destinations</h1>
+
+ <div class="box-container">
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-3.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-5.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-6.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-7.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-8.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-9.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-10.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-11.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/pac-12.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>adventure & tour</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error.</p>
+            <a href="book.php" class="btn">Book now </a>
+        </div>
+    </div>
+
+
+ </div>
+
+ <div class="load-more"><span class="btn">Load more</span></div>
+</section>
+
+<!--Package section ends-->    
+
+
+
+
+<!--Footer Section Start-->
+<section class="footer">
+<div class="box-container">
+    <div class="box">
+    <h3>Quick Links</h3> 
+        <a href="home.php"><i class="fas fa-agnle-right"></i>Home</a>
+        <a href="about.php"><i class="fas fa-agnle-right"></i>About</a>
+        <a href="package.php"><i class="fas fa-agnle-right"></i>Package</a>
+        <a href="Book.php"><i class="fas fa-agnle-right"></i>Book</a>
+    </div>
+
+    <div class="box">
+    <h3>Extra Links</h3> 
+        <a href="#"><i class="fas fa-agnle-right"></i>Ask Query</a>
+        <a href="#"><i class="fas fa-agnle-right"></i>Privicy Policy</a>
+        <a href="#"><i class="fas fa-agnle-right"></i>About Us</a>
+        <a href="#"><i class="fas fa-agnle-right"></i>Terms of use</a>
+    </div>
+
+    <div class="box">
+    <h3>Contact Info</h3> 
+        <a href="home.php"><i class="fas fa-phone"></i>+123-456-789</a>
+        <a href="home.php"><i class="fas fa-phone"></i>+111-222-333</a>
+        <a href="home.php"><i class="fas fa-envelope"></i>ashish@traveladdicts.com</a>
+        <a href="home.php"><i class="fas fa-map"></i>Chandigarh ,India-140413</a>
+    </div>
+    <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i>Linkden</a>
+
+
+    </div>
+</div>
+
+<div class="credit">created by <span> ashish</span>| all rights reserved!</div>
+
+</section>
+
+<!--Footer Section Ends-->
+
+<!--Swiper Js Link-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!--Custum Js Link-->
+<script src="js/script.js"></script>
+</body>
+</html>
